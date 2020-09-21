@@ -1,0 +1,91 @@
+.title {
+    font-size: 10rem;
+    font-weight: 100;
+    font-family: cursive;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+    padding-left: 10px;
+}
+
+.photoWall {
+    max-width: 1000px;
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.figure {
+    border: 1px solid #d3d3d3;
+    flex-direction: row;
+    flex-basis: calc(33.333% - 4rem);
+    flex-grow: 1;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.photo {
+    width: 100%;
+    height: 70%;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: red;
+    flex-basis: 48%;
+    font-size: 15px;
+    border: 2px solid #f2f2f2;
+    line-height: 2;
+    padding: 5px;
+}
+
+button:hover{
+    border: blue;
+}
+
+.addIcon {
+    margin: 20px auto;
+    display: table;
+    font-size: 36px;
+    background-size: contain;
+}
+
+.form {
+    margin: 0 auto;
+    padding: 45px;
+    text-align: center;
+    max-width: 360px;
+}
+
+.form input {
+    font-family: sans-serif;
+    padding: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    border: none;
+    font-size: 14px;
+    margin: 0 0 15px;
+    background: #f2f2f2;
+}
+
+.form button {
+    font-family: sans-serif;
+    text-transform: uppercase;
+    background: #065784;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color: #7b8589;
+}
